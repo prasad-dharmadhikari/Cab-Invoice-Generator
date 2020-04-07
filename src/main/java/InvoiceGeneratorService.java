@@ -8,6 +8,8 @@ public class InvoiceGeneratorService implements IInvoiceGenerator {
 
     public enum subscriptionPlan {NORMAL, PREMIUM}
 
+    ;
+
 
     RideRepository rideRepository = new RideRepository();
     ArrayList<Ride> listOfRides = new ArrayList<Ride>();
